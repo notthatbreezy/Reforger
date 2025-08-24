@@ -1,0 +1,34 @@
+SCR_FactionManager FactionManager_Editor1 : "{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionManager_Editor.et" {
+ coords 2781.484 10 3110.346
+}
+$grp Tank : "{07CD2F66BF403D19}Prefabs/Vehicles/Tracked/BFV/M2A3_BASE.et" {
+ M2A3_BASE1 {
+  coords 2797.352 10.439 3081.862
+  angleY 31.255
+ }
+ M2A3_BASE2 {
+  coords 2792.552 10.439 3083.29
+  angleY 31.255
+ }
+ M2A3_BASE3 {
+  coords 2788.159 10.439 3085.861
+  angleY 31.255
+ }
+}
+Vehicle M1045_Tan1 : "{1105A103676424D0}Prefabs/Vehicles/Wheeled/M1045/M1045_Tan.et" {
+ coords 2780.076 10 3100.687
+ angleY 31.273
+}
+Vehicle M1113_Unarmored_Tan1 : "{B38EF3FA64D6F686}Prefabs/Vehicles/Wheeled/M1113/M1113_Unarmored_Tan.et" {
+ coords 2776.557 10 3104.877
+}
+Vehicle M997A3_maxi_ambulance_Tan1 : "{D3C8500942A0242C}Prefabs/Vehicles/Wheeled/M997/M997A3_maxi_ambulance_Tan.et" {
+ coords 2814.028 10 3096.997
+}
+Vehicle M923A1_transport1 : "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et" {
+ coords 2773.298 10 3108.114
+}
+SCR_PlayerSpawnPoint USSpawnPoint : "{F6CAD21EDD2D1964}Prefabs/MP/Spawning/PlayerSpawnPoint.et" {
+ coords 2779.077 10 3112.433
+ m_sFaction "US"
+}
