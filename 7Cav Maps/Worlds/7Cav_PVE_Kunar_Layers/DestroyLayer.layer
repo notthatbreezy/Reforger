@@ -1,0 +1,18 @@
+GenericEntity Area2 : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Components/Area.et" {
+ coords 2790.408 10 3129.105
+ {
+  GenericEntity LayerTaskDestroy1 : "{5EDF39860639027D}Prefabs/Systems/ScenarioFramework/Components/LayerTaskDestroy.et" {
+   coords 0 0 0
+   {
+    GenericEntity SlotDestroy1 : "{7586595959BA2D99}Prefabs/Systems/ScenarioFramework/Components/SlotDestroy.et" {
+     components {
+      SCR_ScenarioFrameworkSlotDestroy "{5A22E1D6276BD209}" {
+       m_sObjectToSpawn "{0FBF8F010F81A4E5}Prefabs/Vehicles/Wheeled/LAV25/LAV25.et"
+      }
+     }
+     coords 0 0 0
+    }
+   }
+  }
+ }
+}

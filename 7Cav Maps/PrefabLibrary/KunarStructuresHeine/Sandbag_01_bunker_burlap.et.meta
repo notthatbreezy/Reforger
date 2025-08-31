@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7DE0C0D25B9055A0}PrefabLibrary/KunarStructuresHeine/Sandbag_01_bunker_burlap.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

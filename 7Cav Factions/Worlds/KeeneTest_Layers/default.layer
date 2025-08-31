@@ -1,0 +1,63 @@
+SCR_MapEntity MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
+ coords 114.399 1 110.482
+ "Map Geometry Data" "{6C1A35E93C48C94C}Worlds/DevWorlds/RHS_MPTEST/MPTestTerrain/MpTest.topo"
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "MapEntity: "\
+   "Set up map textures"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 114.399 1 109.482
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "SCR_AIWorld: "\
+   "Configure navigation mesh"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 114.399 1 108.482
+}
+SCR_GameModeEditor _Cav_GameMode_Editor_Full1 : "{CC02A0163001967B}Prefabs/MP/Modes/Editor/7Cav_GameMode_Editor_Full.et" {
+ coords 116.122 1 110.666
+ {
+  SCR_FactionManager {
+   ID "65A60BDB8E5DF56A"
+   Factions {
+    SCR_Faction "{662B626270399E78}" : "{0CEDD3CC9A94CCEC}Configs/Factions/Viking_Platoon.conf" {
+    }
+   }
+  }
+  SCR_LoadoutManager {
+   ID "65A60BDB8E5DD9A1"
+   m_aPlayerLoadouts {
+    SCR_FactionPlayerLoadout "{5596D845DBEEF78C}" {
+     m_sAffiliatedFaction "Viking"
+    }
+    SCR_FactionPlayerLoadout "{5596D8455CFBE540}" {
+     m_sAffiliatedFaction "Viking"
+    }
+    SCR_FactionPlayerLoadout "{5596D844009597AC}" {
+     m_sAffiliatedFaction "Viking"
+    }
+    SCR_FactionPlayerLoadout "{568CC9D1BC0FCCF3}" {
+     m_sAffiliatedFaction "Viking"
+    }
+   }
+  }
+ }
+}

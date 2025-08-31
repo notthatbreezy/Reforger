@@ -1,6 +1,14 @@
 PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 1843.281 235.057 1501.201
 }
+SCR_FactionManager FactionManager_Editor1 : "{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionManager_Editor.et" {
+ coords 2781.484 10 3110.346
+ Factions {
+  SCR_Faction "{56DEAC40D2DBC8B1}" {
+   m_bIsPlayable 1
+  }
+ }
+}
 SCR_GameModeEditor _Cav_GameMode_Editor_Full1 : "{CC02A0163001967B}Prefabs/MP/Modes/Editor/7Cav_GameMode_Editor_Full.et" {
  coords 1842.828 235.302 1502.203
  {
@@ -39,6 +47,50 @@ SCR_GameModeEditor _Cav_GameMode_Editor_Full1 : "{CC02A0163001967B}Prefabs/MP/Mo
      m_TextBackground 1
      m_BackgroundColor 1 0.6 0
      m_BackgroundTransparency 0
+    }
+   }
+  }
+  SCR_LoadoutManager {
+   ID "662F03BDB6F31035"
+   m_aPlayerLoadouts {
+    SCR_FactionPlayerLoadout "{5596D845DBEEF78C}" {
+     m_sAffiliatedFaction "US"
+    }
+    SCR_FactionPlayerLoadout "{5596D8455CFBE540}" {
+     m_sAffiliatedFaction "US"
+    }
+    SCR_FactionPlayerLoadout "{5596D844009597AC}" {
+     m_sAffiliatedFaction "US"
+    }
+    SCR_PlayerArsenalLoadout "{568CC9D1BC0FCCF3}" {
+    }
+    SCR_PlayerArsenalLoadout "{568CC9D1B0926B78}" {
+     m_sAffiliatedFaction "US"
+    }
+    SCR_PlayerArsenalLoadout "{568CC9D1B2D77D1F}" {
+     m_sAffiliatedFaction "US"
+    }
+    SCR_FactionPlayerLoadout "{607AA5C7CC976D12}" {
+     m_sAffiliatedFaction "US"
+    }
+    SCR_FactionPlayerLoadout "{61069306CE3712F4}" {
+     m_sAffiliatedFaction "US"
+    }
+    SCR_FactionPlayerLoadout "{61069306CC96B466}" {
+     m_sAffiliatedFaction "US"
+    }
+    SCR_PlayerArsenalLoadout "{662620F044C0647E}" {
+     m_sAffiliatedFaction "US"
+    }
+    SCR_FactionPlayerLoadout "{61069306CC96B466}" {
+     m_sLoadoutName "Crew Chief"
+     m_sLoadoutResource "{9790700770F1DB8B}Prefabs/Characters/Cav_Factions/Alpha/Alpha_Crewchief.et"
+     m_sAffiliatedFaction "Archangel"
+    }
+    SCR_FactionPlayerLoadout "{61069306CC96B466}" {
+     m_sLoadoutName "Crewman"
+     m_sLoadoutResource "{4C480D582A196596}Prefabs/Characters/Cav_Factions/Alpha/Alpha_Crewman.et"
+     m_sAffiliatedFaction "Archangel"
     }
    }
   }

@@ -1,0 +1,10 @@
+GenericEntity {
+ ID "663634F50CBDC8AE"
+ components {
+  CAV_ScenarioFrameworkLayerTaskDestroyAll "{663634F3D5EA66CE}" {
+  }
+  Hierarchy "{663634F50CBDC890}" {
+  }
+ }
+ coords 0.996 -1.368 -12.017
+}

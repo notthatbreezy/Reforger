@@ -1,0 +1,649 @@
+GenericEntity ChapterOneEast : "{6F497DC5D32B9851}PrefabLibrary/MissionTypes/Area.et" {
+ coords 3525.014 14.461 2956.449
+ {
+  $grp GenericEntity : "{7F9CD9EC97FF82A3}PrefabLibrary/InsurgentCaches/Area.et" {
+   GraveHill {
+    coords 183.833 58.46 -116.493
+    {
+     GenericEntity InsurgentTrainingGround_GraveHill : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+      coords 0 0 0
+      {
+       GenericEntity SlotClearArea7 : "{7A7D5E4F974A2DCC}PrefabLibrary/MissionTypes/SlotClearArea.et" {
+        coords 0 0 0
+       }
+      }
+     }
+    }
+   }
+   DurKalay {
+    coords -624.922 28.194 756.461
+    {
+     GenericEntity COIN_DurKalay : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+      coords 0 0 0
+      {
+       GenericEntity SlotDestroy27 : "{862B3D4727074531}PrefabLibrary/MissionTypes/SlotDestroy.et" {
+        coords 0 0 0
+       }
+      }
+     }
+    }
+   }
+   TorKelay {
+    coords -643.413 8.467 -556.541
+    {
+     GenericEntity AMBUSH_TorKelay : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+      coords 0 0 0
+      {
+       GenericEntity SlotDestroy29 : "{862B3D4727074531}PrefabLibrary/MissionTypes/SlotDestroy.et" {
+        coords 0 0 0
+       }
+      }
+     }
+    }
+   }
+   KunarAbad {
+    coords -351.882 -4.775 -235.947
+    {
+     GenericEntity COIN_KunarAbad : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+      coords 0 0 0
+      {
+       GenericEntity SlotDestroy28 : "{862B3D4727074531}PrefabLibrary/MissionTypes/SlotDestroy.et" {
+        coords 0 0 0
+       }
+      }
+     }
+    }
+   }
+   ShanKalay {
+    coords 362.092 -10.1 -409.596
+    {
+     GenericEntity ShanKalaySecureSupplies : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+      coords -17.032 -0.609 -10.682
+      {
+       GenericEntity SlotClearArea9 : "{7A7D5E4F974A2DCC}PrefabLibrary/MissionTypes/SlotClearArea.et" {
+        coords 0 0 0
+       }
+      }
+     }
+    }
+   }
+  }
+  $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Components/Area.et" {
+   KharbasMine {
+    components {
+     SCR_ScenarioFrameworkArea "{59E8CDC50969206E}" {
+      m_bShowDebugShapesInWorkbench 1
+      m_iDynamicDespawnRange 100
+      m_fAreaRadius 100
+     }
+    }
+    coords 313.881 13.539 438.58
+    {
+     GenericEntity KarbasMineClear : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+      coords 0 0 0
+      {
+       GenericEntity SlotClearArea8 : "{7A7D5E4F974A2DCC}PrefabLibrary/MissionTypes/SlotClearArea.et" {
+        coords 0 0 0
+       }
+      }
+     }
+    }
+   }
+   GulzAbad {
+    components {
+     SCR_ScenarioFrameworkArea "{59E8CDC50969206E}" {
+      m_bShowDebugShapesInWorkbench 1
+      m_iDynamicDespawnRange 100
+      m_fAreaRadius 100
+     }
+    }
+    coords 122.462 5.539 854.092
+    {
+     GenericEntity SokolovkaIntel : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+      coords 0 0 0
+      {
+       GenericEntity SlotMoveTo2 : "{FED8893429692E85}PrefabLibrary/MissionTypes/SlotMoveTo.et" {
+        coords 0 0 0
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
+$grp GenericEntity : "{7F9CD9EC97FF82A3}PrefabLibrary/InsurgentCaches/Area.et" {
+ ChapterOneNorth {
+  coords 2042.163 24.162 3618.281
+  {
+   $grp GenericEntity : "{7F9CD9EC97FF82A3}PrefabLibrary/InsurgentCaches/Area.et" {
+    FOB_Blessing {
+     coords 260.618 8.738 185.316
+     {
+      GenericEntity CAP_FOB_Blessing : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+       coords 0 0 0
+       {
+        GenericEntity SlotClearArea5 : "{7A7D5E4F974A2DCC}PrefabLibrary/MissionTypes/SlotClearArea.et" {
+         coords 0 0 0
+        }
+       }
+      }
+     }
+    }
+    GurKalay {
+     coords -246.971 -8.571 242.025
+     {
+      GenericEntity COIN_GurKalay : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+       coords 0 0 0
+       {
+        GenericEntity SlotClearArea6 : "{7A7D5E4F974A2DCC}PrefabLibrary/MissionTypes/SlotClearArea.et" {
+         coords 0 0 0
+        }
+       }
+      }
+     }
+    }
+    BlessingTunnel {
+     coords 64.005 -1.099 291.404
+     {
+      GenericEntity SECURE_BlessingSupplies : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+       coords 0 0 0
+       {
+        GenericEntity SlotClearArea4 : "{7A7D5E4F974A2DCC}PrefabLibrary/MissionTypes/SlotClearArea.et" {
+         components {
+          SCR_ScenarioFrameworkSlotClearArea "{5A633AF525D5B972}" {
+           m_sTaskTitle "Secure Supplies at Blessing Tunnel"
+          }
+         }
+         coords 0 0 0
+        }
+        GenericEntity SlotMarker1 : "{E537867C6E760514}Prefabs/Systems/ScenarioFramework/Components/SlotMarker.et" {
+         components {
+          SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+           m_MapMarkerType SCR_ScenarioFrameworkMarkerMilitary "{663A525FCE820669}" {
+           }
+          }
+         }
+         coords -12.381 0 -40.886
+        }
+       }
+      }
+     }
+    }
+    OP_OldSoviet {
+     coords -849.982 64.94 256.694
+     {
+      GenericEntity IntelligenceOldSoviet : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+       coords 0 0 0
+       {
+        GenericEntity SlotMoveTo1 : "{FED8893429692E85}PrefabLibrary/MissionTypes/SlotMoveTo.et" {
+         components {
+          SCR_ScenarioFrameworkSlotExtraction "{5A1EEEC837EEA27B}" {
+           m_aPlugins {
+            SCR_ScenarioFrameworkPluginTrigger "{5A6C6D099D49E4BA}" {
+            }
+           }
+           m_sTaskTitle "Search for Intel at Abandoned Base"
+          }
+         }
+         coords 0 0 0
+        }
+       }
+      }
+     }
+    }
+   }
+   GenericEntity Nangalam : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Components/Area.et" {
+    components {
+     SCR_ScenarioFrameworkArea "{59E8CDC50969206E}" {
+      m_fAreaRadius 5
+     }
+    }
+    coords 199.462 -8.098 -60.646
+    {
+     GenericEntity OBJ_DestroyNangalamMortarCaches : "{5AF3BFDA2EAE56EA}Prefabs/Systems/ScenarioFramework/Components/LayerTask.et" {
+      components {
+       SCR_ScenarioFrameworkLayerTask "{5A2283E9F84958A1}" {
+        m_SpawnChildren RANDOM_MULTIPLE
+        m_iRandomPercent 50
+        m_sTaskTitle "Destroy Insurgent Mortars"
+        m_sTaskDescription "FOB Michigan receives daily mortar attacks from insurgents in the nearby village of Nangalam. Conduct a COIN operation in Nangalam to find and destroy 5 enemy mortars in the village."
+       }
+      }
+      coords -184.702 4.43 89.678
+      {
+       SCR_ScenarioFrameworkLogicCounter MortarCounter : "{6C1792C71DCAFD55}Prefabs/Systems/ScenarioFramework/Components/LogicCounter.et" {
+        coords -523.55 6.671 409.492
+        scale 1.9
+        m_aActions {
+         SCR_ScenarioFrameworkActionChangeTaskState "{663634E32DEFECB1}" {
+          m_Getter SCR_ScenarioFrameworkGetTask "{663634E32852683D}" {
+           m_sLayerTaskName "OBJ_DestroyNangalamMortarCaches"
+          }
+         }
+        }
+        m_iCountTo 5
+       }
+       $grp GenericEntity : "{8DF18D7DA1AEF669}PrefabLibrary/InsurgentCaches/SlotDestroy.et" {
+        SlotDestroy2 {
+         components {
+          SCR_ScenarioFrameworkSlotDestroy "{66380E68D7D5DECA}" {
+           m_aPlugins {
+            SCR_ScenarioFrameworkPluginOnDestroyEvent "{66380E6ED0346F4C}" {
+             m_aActionsOnDestroy {
+              SCR_ScenarioFrameworkActionIncrementCounter "{66380E6EDAF7E92C}" {
+               m_sCounterName "MortarCounter"
+              }
+             }
+            }
+           }
+          }
+         }
+         coords 75.359 -1.352 -30.046
+        }
+        SlotDestroy3 {
+         components {
+          SCR_ScenarioFrameworkSlotDestroy "{66380E68D7D5DECA}" {
+           m_aPlugins {
+            SCR_ScenarioFrameworkPluginOnDestroyEvent "{66380E6ED0346F4C}" {
+             m_aActionsOnDestroy {
+              SCR_ScenarioFrameworkActionIncrementCounter "{66380E6EDAF7E92C}" {
+               m_sCounterName "MortarCounter"
+              }
+             }
+            }
+           }
+          }
+         }
+         coords 50.71 -0.494 8.641
+        }
+        SlotDestroy4 {
+         components {
+          SCR_ScenarioFrameworkSlotDestroy "{66380E68D7D5DECA}" {
+           m_aPlugins {
+            SCR_ScenarioFrameworkPluginOnDestroyEvent "{66380E6ED0346F4C}" {
+             m_aActionsOnDestroy {
+              SCR_ScenarioFrameworkActionIncrementCounter "{66380E6EDAF7E92C}" {
+               m_sCounterName "MortarCounter"
+              }
+             }
+            }
+           }
+          }
+         }
+         coords 8.529 -0.687 29.561
+        }
+        SlotDestroy5 {
+         components {
+          SCR_ScenarioFrameworkSlotDestroy "{66380E68D7D5DECA}" {
+           m_aPlugins {
+            SCR_ScenarioFrameworkPluginOnDestroyEvent "{66380E6ED0346F4C}" {
+             m_aActionsOnDestroy {
+              SCR_ScenarioFrameworkActionIncrementCounter "{66380E6EDAF7E92C}" {
+               m_sCounterName "MortarCounter"
+              }
+             }
+            }
+           }
+          }
+         }
+         coords -20.97 -3.315 81.711
+        }
+        SlotDestroy6 {
+         components {
+          SCR_ScenarioFrameworkSlotDestroy "{66380E68D7D5DECA}" {
+           m_aPlugins {
+            SCR_ScenarioFrameworkPluginOnDestroyEvent "{66380E6ED0346F4C}" {
+             m_aActionsOnDestroy {
+              SCR_ScenarioFrameworkActionIncrementCounter "{66380E6EDAF7E92C}" {
+               m_sCounterName "MortarCounter"
+              }
+             }
+            }
+           }
+          }
+         }
+         coords -64.147 -3.587 49.363
+        }
+        SlotDestroy7 {
+         components {
+          SCR_ScenarioFrameworkSlotDestroy "{66380E68D7D5DECA}" {
+           m_aPlugins {
+            SCR_ScenarioFrameworkPluginOnDestroyEvent "{66380E6ED0346F4C}" {
+             m_aActionsOnDestroy {
+              SCR_ScenarioFrameworkActionIncrementCounter "{66380E6EDAF7E92C}" {
+               m_sCounterName "MortarCounter"
+              }
+             }
+            }
+           }
+          }
+         }
+         coords 206.824 5.422 28.21
+        }
+        SlotDestroy8 {
+         components {
+          SCR_ScenarioFrameworkSlotDestroy "{66380E68D7D5DECA}" {
+           m_aPlugins {
+            SCR_ScenarioFrameworkPluginOnDestroyEvent "{66380E6ED0346F4C}" {
+             m_aActionsOnDestroy {
+              SCR_ScenarioFrameworkActionIncrementCounter "{66380E6EDAF7E92C}" {
+               m_sCounterName "MortarCounter"
+              }
+             }
+            }
+           }
+          }
+         }
+         coords 23.844 -0.567 127.716
+        }
+        SlotDestroy9 {
+         components {
+          SCR_ScenarioFrameworkSlotDestroy "{66380E68D7D5DECA}" {
+           m_aPlugins {
+            SCR_ScenarioFrameworkPluginOnDestroyEvent "{66380E6ED0346F4C}" {
+             m_aActionsOnDestroy {
+              SCR_ScenarioFrameworkActionIncrementCounter "{66380E6EDAF7E92C}" {
+               m_sCounterName "MortarCounter"
+              }
+             }
+            }
+           }
+          }
+         }
+         coords 17.802 5.555 -40.241
+         angleY -53.511
+        }
+        SlotDestroy10 {
+         components {
+          SCR_ScenarioFrameworkSlotDestroy "{66380E68D7D5DECA}" {
+           m_aPlugins {
+            SCR_ScenarioFrameworkPluginOnDestroyEvent "{66380E6ED0346F4C}" {
+             m_aActionsOnDestroy {
+              SCR_ScenarioFrameworkActionIncrementCounter "{66380E6EDAF7E92C}" {
+               m_sCounterName "MortarCounter"
+              }
+             }
+            }
+           }
+          }
+         }
+         coords 23.765 2.938 230.208
+        }
+        SlotDestroy11 {
+         components {
+          SCR_ScenarioFrameworkSlotDestroy "{66380E68D7D5DECA}" {
+           m_aPlugins {
+            SCR_ScenarioFrameworkPluginOnDestroyEvent "{66380E6ED0346F4C}" {
+             m_aActionsOnDestroy {
+              SCR_ScenarioFrameworkActionIncrementCounter "{66380E6EDAF7E92C}" {
+               m_sCounterName "MortarCounter"
+              }
+             }
+            }
+           }
+          }
+         }
+         coords -118.171 -3.631 173.793
+        }
+        SlotDestroy12 {
+         components {
+          SCR_ScenarioFrameworkSlotDestroy "{66380E68D7D5DECA}" {
+           m_aPlugins {
+            SCR_ScenarioFrameworkPluginOnDestroyEvent "{66380E6ED0346F4C}" {
+             m_aActionsOnDestroy {
+              SCR_ScenarioFrameworkActionIncrementCounter "{66380E6EDAF7E92C}" {
+               m_sCounterName "MortarCounter"
+              }
+             }
+            }
+           }
+          }
+         }
+         coords -140.245 -5.019 221.397
+        }
+        SlotDestroy13 {
+         components {
+          SCR_ScenarioFrameworkSlotDestroy "{66380E68D7D5DECA}" {
+           m_aPlugins {
+            SCR_ScenarioFrameworkPluginOnDestroyEvent "{66380E6ED0346F4C}" {
+             m_aActionsOnDestroy {
+              SCR_ScenarioFrameworkActionIncrementCounter "{66380E6EDAF7E92C}" {
+               m_sCounterName "MortarCounter"
+              }
+             }
+            }
+           }
+          }
+         }
+         coords -204.123 -6.244 247.509
+        }
+        SlotDestroy14 {
+         components {
+          SCR_ScenarioFrameworkSlotDestroy "{66380E68D7D5DECA}" {
+           m_aPlugins {
+            SCR_ScenarioFrameworkPluginOnDestroyEvent "{66380E6ED0346F4C}" {
+             m_aActionsOnDestroy {
+              SCR_ScenarioFrameworkActionIncrementCounter "{66380E6EDAF7E92C}" {
+               m_sCounterName "MortarCounter"
+              }
+             }
+            }
+           }
+          }
+         }
+         coords -242.241 -3.358 269.971
+        }
+        SlotDestroy15 {
+         components {
+          SCR_ScenarioFrameworkSlotDestroy "{66380E68D7D5DECA}" {
+           m_aPlugins {
+            SCR_ScenarioFrameworkPluginOnDestroyEvent "{66380E6ED0346F4C}" {
+             m_aActionsOnDestroy {
+              SCR_ScenarioFrameworkActionIncrementCounter "{66380E6EDAF7E92C}" {
+               m_sCounterName "MortarCounter"
+              }
+             }
+            }
+           }
+          }
+         }
+         coords -300.623 -2.608 274.807
+        }
+        SlotDestroy16 {
+         components {
+          SCR_ScenarioFrameworkSlotDestroy "{66380E68D7D5DECA}" {
+           m_aPlugins {
+            SCR_ScenarioFrameworkPluginOnDestroyEvent "{66380E6ED0346F4C}" {
+             m_aActionsOnDestroy {
+              SCR_ScenarioFrameworkActionIncrementCounter "{66380E6EDAF7E92C}" {
+               m_sCounterName "MortarCounter"
+              }
+             }
+            }
+           }
+          }
+         }
+         coords -287.672 1.01 303.342
+        }
+        SlotDestroy17 {
+         components {
+          SCR_ScenarioFrameworkSlotDestroy "{66380E68D7D5DECA}" {
+           m_aPlugins {
+            SCR_ScenarioFrameworkPluginOnDestroyEvent "{66380E6ED0346F4C}" {
+             m_aActionsOnDestroy {
+              SCR_ScenarioFrameworkActionIncrementCounter "{66380E6EDAF7E92C}" {
+               m_sCounterName "MortarCounter"
+              }
+             }
+            }
+           }
+          }
+         }
+         coords -285.031 0.42 207.686
+        }
+        SlotDestroy18 {
+         components {
+          SCR_ScenarioFrameworkSlotDestroy "{66380E68D7D5DECA}" {
+           m_aPlugins {
+            SCR_ScenarioFrameworkPluginOnDestroyEvent "{66380E6ED0346F4C}" {
+             m_aActionsOnDestroy {
+              SCR_ScenarioFrameworkActionIncrementCounter "{66380E6EDAF7E92C}" {
+               m_sCounterName "MortarCounter"
+              }
+             }
+            }
+           }
+          }
+         }
+         coords -331.152 1.132 197.164
+        }
+        SlotDestroy19 {
+         components {
+          SCR_ScenarioFrameworkSlotDestroy "{66380E68D7D5DECA}" {
+           m_aPlugins {
+            SCR_ScenarioFrameworkPluginOnDestroyEvent "{66380E6ED0346F4C}" {
+             m_aActionsOnDestroy {
+              SCR_ScenarioFrameworkActionIncrementCounter "{66380E6EDAF7E92C}" {
+               m_sCounterName "MortarCounter"
+              }
+             }
+            }
+           }
+          }
+         }
+         coords -374.181 -0.275 183.718
+        }
+        SlotDestroy20 {
+         components {
+          SCR_ScenarioFrameworkSlotDestroy "{66380E68D7D5DECA}" {
+           m_aPlugins {
+            SCR_ScenarioFrameworkPluginOnDestroyEvent "{66380E6ED0346F4C}" {
+             m_aActionsOnDestroy {
+              SCR_ScenarioFrameworkActionIncrementCounter "{66380E6EDAF7E92C}" {
+               m_sCounterName "MortarCounter"
+              }
+             }
+            }
+           }
+          }
+         }
+         coords -215.277 -5.649 210.542
+        }
+        SlotDestroy21 {
+         components {
+          SCR_ScenarioFrameworkSlotDestroy "{66380E68D7D5DECA}" {
+           m_aPlugins {
+            SCR_ScenarioFrameworkPluginOnDestroyEvent "{66380E6ED0346F4C}" {
+             m_aActionsOnDestroy {
+              SCR_ScenarioFrameworkActionIncrementCounter "{66380E6EDAF7E92C}" {
+               m_sCounterName "MortarCounter"
+              }
+             }
+            }
+           }
+          }
+         }
+         coords -112.245 2.965 114.601
+        }
+        SlotDestroy22 {
+         components {
+          SCR_ScenarioFrameworkSlotDestroy "{66380E68D7D5DECA}" {
+           m_aPlugins {
+            SCR_ScenarioFrameworkPluginOnDestroyEvent "{66380E6ED0346F4C}" {
+             m_aActionsOnDestroy {
+              SCR_ScenarioFrameworkActionIncrementCounter "{66380E6EDAF7E92C}" {
+               m_sCounterName "MortarCounter"
+              }
+             }
+            }
+           }
+          }
+         }
+         coords -141.292 5.261 76.442
+        }
+        SlotDestroy23 {
+         components {
+          SCR_ScenarioFrameworkSlotDestroy "{66380E68D7D5DECA}" {
+           m_aPlugins {
+            SCR_ScenarioFrameworkPluginOnDestroyEvent "{66380E6ED0346F4C}" {
+             m_aActionsOnDestroy {
+              SCR_ScenarioFrameworkActionIncrementCounter "{66380E6EDAF7E92C}" {
+               m_sCounterName "MortarCounter"
+              }
+             }
+            }
+           }
+          }
+         }
+         coords -150.785 5.302 56.856
+        }
+        SlotDestroy24 {
+         components {
+          SCR_ScenarioFrameworkSlotDestroy "{66380E68D7D5DECA}" {
+           m_aPlugins {
+            SCR_ScenarioFrameworkPluginOnDestroyEvent "{66380E6ED0346F4C}" {
+             m_aActionsOnDestroy {
+              SCR_ScenarioFrameworkActionIncrementCounter "{66380E6EDAF7E92C}" {
+               m_sCounterName "MortarCounter"
+              }
+             }
+            }
+           }
+          }
+         }
+         coords -168.39 15.775 87.087
+        }
+        SlotDestroy25 {
+         components {
+          SCR_ScenarioFrameworkSlotDestroy "{66380E68D7D5DECA}" {
+           m_aPlugins {
+            SCR_ScenarioFrameworkPluginOnDestroyEvent "{66380E6ED0346F4C}" {
+             m_aActionsOnDestroy {
+              SCR_ScenarioFrameworkActionIncrementCounter "{66380E6EDAF7E92C}" {
+               m_sCounterName "MortarCounter"
+              }
+             }
+            }
+           }
+          }
+         }
+         coords 17.078 0.437 -5.658
+        }
+        SlotDestroy26 {
+         components {
+          SCR_ScenarioFrameworkSlotDestroy "{66380E68D7D5DECA}" {
+           m_aPlugins {
+            SCR_ScenarioFrameworkPluginOnDestroyEvent "{66380E6ED0346F4C}" {
+             m_aActionsOnDestroy {
+              SCR_ScenarioFrameworkActionIncrementCounter "{66380E6EDAF7E92C}" {
+               m_sCounterName "MortarCounter"
+              }
+             }
+            }
+           }
+          }
+         }
+         coords -41.315 -3.173 140.625
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ ChapterOneWest {
+  coords 2149.329 20.728 3037.408
+  {
+   GenericEntity LayerTask43 : "{A86E7D191932F2F0}PrefabLibrary/MissionTypes/LayerTask.et" {
+    coords -20.422 0.124 21.298
+    {
+     GenericEntity SlotDestroy1 : "{862B3D4727074531}PrefabLibrary/MissionTypes/SlotDestroy.et" {
+      coords 0.478 -0.333 -21.976
+     }
+    }
+   }
+  }
+ }
+}

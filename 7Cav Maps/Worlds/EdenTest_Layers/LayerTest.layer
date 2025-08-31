@@ -1,0 +1,30 @@
+GenericEntity LayerTasks : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Components/Area.et" {
+ coords 6260.93 157.389 6342.259
+ {
+  GenericEntity LayerTaskDestroy1 : "{5EDF39860639027D}Prefabs/Systems/ScenarioFramework/Components/LayerTaskDestroy.et" {
+   components {
+    SCR_ScenarioFrameworkLayerTaskDestroy "{5A6513F41BA457C8}" {
+     m_bShowDebugShapesDuringRuntime 1
+     m_bShowDebugShapesInWorkbench 1
+    }
+   }
+   coords 0 0 0
+   {
+    GenericEntity SlotDestroy1 : "{7586595959BA2D99}Prefabs/Systems/ScenarioFramework/Components/SlotDestroy.et" {
+     components {
+      SCR_ScenarioFrameworkSlotDestroy "{5A22E1D6276BD209}" {
+       m_bShowDebugShapesDuringRuntime 1
+       m_sObjectToSpawn "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et"
+       m_aIncludedEditableEntityLabels {
+       }
+       m_sTaskTitle "Destroy Humvee"
+       m_sTaskDescription "Destroy Humvee"
+       m_sTaskExecutionBriefing "Destroy Humvee"
+      }
+     }
+     coords -0.103 0 0
+    }
+   }
+  }
+ }
+}

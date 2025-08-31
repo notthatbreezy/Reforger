@@ -1,0 +1,36 @@
+$grp GenericEntity : "{28D63631873AA636}Prefabs/Compositions/Slotted/SlotFlatSmall/MortarPlacement_S_USSR_01.et" {
+ {
+  coords 4446.091 94.318 8282.874
+  angleX 12.654
+  angleY 159.803
+  angleZ 3.754
+ }
+ {
+  coords 4422.717 93.997 8267.535
+  angleX 7.228
+  angleY 158.907
+  angleZ 3.877
+ }
+ {
+  coords 4480.512 92.565 8312.269
+  angleX 7.094
+  angleY 159.18
+  angleZ 1.111
+ }
+ {
+  coords 4450.732 90.609 8310.667
+  angleX 7.413
+  angleY 159.005
+  angleZ 1.917
+ }
+}
+$grp StaticModelEntity : "{5B5D8AEA342E1AAB}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/Sandbag_01_bunker_burlap_camonet_CompositionDestruction.et" {
+ {
+  coords 4532.355 103.125 8252
+  angleY 147.874
+ }
+ {
+  coords 4596.948 108.832 8253.779
+  angleY 146.845
+ }
+}

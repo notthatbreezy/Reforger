@@ -1,0 +1,9 @@
+GenericEntity {
+ ID "59E8CDC4819B4FE1"
+ components {
+  SCR_ScenarioFrameworkArea "{59E8CDC50969206E}" {
+   m_bShowDebugShapesInWorkbench 1
+   m_iDynamicDespawnRange 100
+  }
+ }
+}

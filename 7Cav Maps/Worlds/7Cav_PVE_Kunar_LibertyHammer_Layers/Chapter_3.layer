@@ -1,0 +1,190 @@
+$grp GenericEntity : "{7F9CD9EC97FF82A3}PrefabLibrary/InsurgentCaches/Area.et" {
+ KharkaDahy {
+  coords 3814.811 230.334 982.213
+  {
+   GenericEntity LayerTask19 : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+    coords 0 0 0
+    {
+     GenericEntity SlotExtraction2 : "{54069102911AA3F0}PrefabLibrary/MissionTypes/SlotExtraction.et" {
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ KharkaHeliCrash {
+  coords 3163.64 316.624 1374.446
+  {
+   GenericEntity LayerTask20 : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+    coords 0 0 0
+    {
+     GenericEntity SlotExtraction3 : "{54069102911AA3F0}PrefabLibrary/MissionTypes/SlotExtraction.et" {
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ SalarBan {
+  coords 3536.017 199.999 1526.64
+  {
+   GenericEntity LayerTask23 : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+    coords 0 0 0
+    {
+     GenericEntity SlotKill3 : "{DAED7E19771E01C8}PrefabLibrary/MissionTypes/SlotKill.et" {
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ Cham {
+  coords 3800.379 129.75 1786.402
+  {
+   GenericEntity LayerTask14 : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+    coords 0 0 0
+    {
+     GenericEntity SlotKill2 : "{DAED7E19771E01C8}PrefabLibrary/MissionTypes/SlotKill.et" {
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ Restrepo {
+  coords 1892.915 206.63 1348.803
+  {
+   GenericEntity LayerTask22 : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+    coords 0 0 0
+    {
+     GenericEntity SlotDefend1 : "{BBBB3756C357CB64}PrefabLibrary/MissionTypes/SlotDefend.et" {
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ VegasMedical {
+  coords 2748.882 149.265 1705.813
+  {
+   GenericEntity LayerTask26 : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+    coords 0 0 0
+    {
+     GenericEntity SlotDelivery3 : "{A0E3A7568415CD77}PrefabLibrary/MissionTypes/SlotDelivery.et" {
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ AliAbad {
+  coords 2154.769 140.051 1468.046
+  {
+   GenericEntity LayerTask13 : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+    coords 0 0 0
+    {
+     GenericEntity SlotTriggerClearArea1 : "{E2D975E415F99D8E}PrefabLibrary/MissionTypes/SlotTriggerClearArea.et" {
+      components {
+       SCR_ScenarioFrameworkSlotTrigger "{5A4B5098DE424991}" {
+        m_bDynamicDespawn 1
+        m_iDynamicDespawnRange 703
+       }
+      }
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ COP_Korengal {
+  coords 2343.452 163.5 1828.221
+  {
+   GenericEntity LayerTask15 : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+    coords 0 0 0
+    {
+     GenericEntity SlotDefend2 : "{BBBB3756C357CB64}PrefabLibrary/MissionTypes/SlotDefend.et" {
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ KorengalRiverClear {
+  coords 2603.758 64.308 1940.322
+  {
+   GenericEntity LayerTask21 : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+    coords 0 0 0
+    {
+     GenericEntity SlotMoveTo3 : "{FED8893429692E85}PrefabLibrary/MissionTypes/SlotMoveTo.et" {
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ FB_Vegas {
+  coords 2714.959 104.512 1962.836
+  {
+   GenericEntity LayerTask16 : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+    coords 0 0 0
+    {
+     GenericEntity SlotClearArea12 : "{7A7D5E4F974A2DCC}PrefabLibrary/MissionTypes/SlotClearArea.et" {
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ Kandlay {
+  coords 2797.843 170 1479.493
+  {
+   GenericEntity LayerTask17 : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+    coords 0 0 0
+    {
+     GenericEntity SlotDestroy37 : "{862B3D4727074531}PrefabLibrary/MissionTypes/SlotDestroy.et" {
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ KandlayHeliCrash {
+  coords 2535.583 242.832 1245.238
+  {
+   GenericEntity LayerTask18 : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+    coords 0 0 0
+    {
+     GenericEntity SlotExtraction1 : "{54069102911AA3F0}PrefabLibrary/MissionTypes/SlotExtraction.et" {
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ ToraHeliCrash {
+  coords 1763.342 259.522 1878.636
+  {
+   GenericEntity LayerTask25 : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+    coords 0 0 0
+    {
+     GenericEntity SlotExtraction5 : "{54069102911AA3F0}PrefabLibrary/MissionTypes/SlotExtraction.et" {
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ SonTantil {
+  coords 1629.255 224.338 2439.687
+  {
+   GenericEntity LayerTask24 : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+    coords 0 0 0
+    {
+     GenericEntity SlotExtraction4 : "{54069102911AA3F0}PrefabLibrary/MissionTypes/SlotExtraction.et" {
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+}

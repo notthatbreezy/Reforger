@@ -1,0 +1,15 @@
+GenericEntity Pazrak : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Components/Area.et" {
+ components {
+  SCR_ScenarioFrameworkArea "{59E8CDC50969206E}" {
+   m_bShowDebugShapesInWorkbench 1
+   m_iDynamicDespawnRange 100
+   m_fAreaRadius 100
+  }
+ }
+ coords 3523.108 19.958 3208.887
+ {
+  GenericEntity PazrakCoin : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+   coords 0 0 0
+  }
+ }
+}

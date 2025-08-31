@@ -1,0 +1,62 @@
+SCR_MapEntity MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
+ coords 114.399 1 110.482
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "MapEntity: "\
+   "Set up map textures"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 114.399 1 109.482
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "SCR_AIWorld: "\
+   "Configure navigation mesh"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 114.399 1 108.482
+}
+SCR_GameModeEditor _Cav_GameMode_Editor_Full1 : "{CC02A0163001967B}Prefabs/MP/Modes/Editor/7Cav_GameMode_Editor_Full.et" {
+ coords 114.184 1 99.025
+ {
+  SCR_FactionManager {
+   ID "65A60BDB8E5DF56A"
+   Factions {
+    SCR_Faction "{56DEAC40D2DBC8B1}" {
+     m_bIsPlayable 0
+    }
+    SCR_Faction "{662B6263353D7EBA}" : "{9366FB90605C1489}Configs/Factions/Bravo/Viking_Platoon.conf" {
+    }
+   }
+  }
+  SCR_LoadoutManager {
+   ID "65A60BDB8E5DD9A1"
+   m_aPlayerLoadouts {
+    SCR_FactionPlayerLoadout "{5596D845DBEEF78C}" {
+     m_sAffiliatedFaction "Viking"
+    }
+    SCR_FactionPlayerLoadout "{5596D8455CFBE540}" {
+     m_sAffiliatedFaction "Viking"
+    }
+    SCR_FactionPlayerLoadout "{5596D844009597AC}" {
+     m_sAffiliatedFaction "Viking"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,4 @@
+SCR_DestructibleBuildingEntity : "{645CE45DEFF1824A}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/Military_Outpost_Medic.et" {
+ coords 2722.904 0.121 1715.737
+ angleY -50.765
+}

@@ -1,0 +1,50 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ coords 3223.981 9.894 2661.214
+}
+GenericEntity CivilianSpawns : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Components/Area.et" {
+ components {
+  SCR_ScenarioFrameworkArea "{59E8CDC50969206E}" {
+   m_bEnableRepeatedSpawn 1
+  }
+ }
+ coords 3195.16 17.467 2630.878
+ {
+  GenericEntity CivilianSpawn : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+   components {
+    SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+     m_bEnableRepeatedSpawn 1
+    }
+   }
+   coords -117.567 -7.809 137.831
+   {
+    $grp GenericEntity : "{8D43830F02C3F114}Prefabs/Systems/ScenarioFramework/Components/SlotAI.et" {
+     SlotAI1 {
+      components {
+       SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+        m_sFactionKey "CIV"
+        m_bEnableRepeatedSpawn 1
+        m_iRepeatedSpawnNumber 5
+        m_fRepeatedSpawnTimer 1
+        m_sObjectToSpawn "{22E43956740A6794}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized.et"
+        m_sWPToSpawn "{FFB2813D2571B6B8}Prefabs/AI/Waypoints/AIWaypoint_AtEase.et"
+       }
+      }
+      coords 237.947 -0.158 -174.186
+     }
+     SlotAI2 {
+      components {
+       SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+        m_bEnableRepeatedSpawn 1
+        m_iRepeatedSpawnNumber 20
+        m_fRepeatedSpawnTimer 1
+        m_sObjectToSpawn "{22E43956740A6794}Prefabs/Characters/Factions/CIV/GenericCivilians/Character_CIV_Randomized.et"
+        m_sWPToSpawn "{D6A5C6B4DEB66D12}Prefabs/AI/PlayerChaserBall.et"
+       }
+      }
+      coords 243.722 -0.158 -181.883
+     }
+    }
+   }
+  }
+ }
+}

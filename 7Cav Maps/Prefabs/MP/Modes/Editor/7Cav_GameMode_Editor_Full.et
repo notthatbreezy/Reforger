@@ -14,10 +14,6 @@ SCR_GameModeEditor : "{D2DE7F43D48A3667}Prefabs/MP/Modes/Editor/GameMode_Editor.
   }
  }
  {
-  SCR_FactionManager : "{4A188E44289B9A51}Prefabs/MP/Managers/Factions/FactionManager_Editor.et" {
-   ID "662F03B139AF123F"
-   coords 0 0 0
-  }
   RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Radio/RadioManager.et" {
    ID "65A60BDB8E5DF56B"
   }

@@ -1,0 +1,18 @@
+GenericEntity {
+ ID "66380E68D7D5E39D"
+ components {
+  SCR_ScenarioFrameworkSlotDestroy "{66380E68D7D5DECA}" {
+   m_bShowDebugShapesInWorkbench 1
+   m_sObjectToSpawn "{F2FB419389BA113E}PrefabLibrary/InsurgentCaches/Mortar_2B14.et"
+  }
+  Hierarchy "{66380E68D7D5DEDD}" {
+  }
+ }
+ {
+  CommentEntity {
+   ID "66380E68C70C4A18"
+   coords -0.712 2.053 1.758
+   m_Comment "Mortar"
+  }
+ }
+}

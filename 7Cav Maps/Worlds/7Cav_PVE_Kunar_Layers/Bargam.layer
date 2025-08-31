@@ -1,34 +1,162 @@
-SCR_FactionManager FactionManager_Editor1 : "{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionManager_Editor.et" {
- coords 2781.484 10 3110.346
+GenericEntity : "{0013956F304BB7B2}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/Improvised_Metalshed.et" {
+ coords 2772.071 10 3169.783
+ angleY -148.551
 }
-$grp Tank : "{07CD2F66BF403D19}Prefabs/Vehicles/Tracked/BFV/M2A3_BASE.et" {
- M2A3_BASE1 {
-  coords 2797.352 10.439 3081.862
-  angleY 31.255
+SCR_DestructibleBuildingEntity : "{0F84CBDB6DC72F1B}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/Military_Outpost.et" {
+ coords 2752.36 0 3177.674
+ angleY -60.088
+}
+GenericEntity : "{8BE153775299BA56}Prefabs/Compositions/Misc/SubCompositions/PalletFuel_Cluttered_US_01.et" {
+ coords 2818.877 10.029 3087.419
+ angleY -16.027
+}
+SCR_DestructibleBuildingEntity : "{9412DFFD0CE12152}Prefabs/Structures/Industrial/Houses/HouseAddon_ShedMetal_01/HouseAddon_ShedMetal_01_Base.et" {
+ coords 2818.073 -0.021 3086.766
+ angleY 163.135
+}
+GenericEntity Area1 : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Components/Area.et" {
+ coords 2799.124 10 3109.342
+ {
+  GenericEntity Layer1 : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+   coords 0 0 0
+   {
+    $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+     Slot1 {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{B1248BD4035260A1}Prefabs/MP/Spawning/SpawnPoint_US_CP.et"
+       }
+      }
+      coords -41.158 0.861 70.085
+      angleY -59.831
+     }
+     Slot2 {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{45C675ED3CFBBEC5}Prefabs/Props/Military/Compositions/US/ArsenalBox_US.et"
+       }
+      }
+      coords -28.793 0 65.556
+      angleY 31.46
+     }
+     Slot3 {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{A28E5D231A74D95D}Prefabs/Props/Military/Compositions/US/ArsenalBox_US_Equipment.et"
+       }
+      }
+      coords -22.249 0 61.335
+      angleY 32.332
+     }
+     Slot4 {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{D0DD6DBF5E37476A}Prefabs/Vehicles/Tracked/BFV/M2A3_BUSK_Desert.et"
+       }
+      }
+      coords 8.503 0 -17.392
+      angleY 32.176
+     }
+     Slot5 {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{D0DD6DBF5E37476A}Prefabs/Vehicles/Tracked/BFV/M2A3_BUSK_Desert.et"
+       }
+      }
+      coords 1.328 0 -11.906
+      angleY 30.473
+     }
+     Slot6 {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{1105A103676424D0}Prefabs/Vehicles/Wheeled/M1045/M1045_Tan.et"
+       }
+      }
+      coords -5.677 0 -7.069
+      angleY 31.252
+     }
+     Slot7 {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{AE26751900BDAD05}Prefabs/Vehicles/Wheeled/M1097/M1097_Tan.et"
+       }
+      }
+      coords -11.978 0 -3.993
+      angleY 31.368
+     }
+     Slot9 {
+      coords -22.013 0 2.137
+      angleY 31.368
+     }
+     Slot10 {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{2533112C9D322628}Prefabs/Vehicles/Wheeled/M1113/M134/M1113_M134_Tan.et"
+       }
+      }
+      coords -16.957 0 -1.115
+      angleY 31.368
+     }
+     Slot8 {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{D3C8500942A0242C}Prefabs/Vehicles/Wheeled/M997/M997A3_maxi_ambulance_Tan.et"
+       }
+      }
+      coords -22.823 0 3.084
+      angleY 31.355
+     }
+     Slot11 {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et"
+       }
+      }
+      coords -33.207 0 10.202
+      angleY 30.444
+     }
+     Slot12 {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{45C675ED3CFBBEC5}Prefabs/Props/Military/Compositions/US/ArsenalBox_US.et"
+       }
+      }
+      coords 17.715 0.029 -22.65
+      angleY -19.898
+     }
+     Slot13 {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{A28E5D231A74D95D}Prefabs/Props/Military/Compositions/US/ArsenalBox_US_Equipment.et"
+       }
+      }
+      coords 15.47 0.029 -23.114
+      angleY -19.622
+     }
+     Slot14 {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sObjectToSpawn "{A042ACE5C2B13206}Prefabs/Vehicles/Wheeled/M923A1/M923A1_repair.et"
+       }
+      }
+      coords -26.496 0.44 -12.589
+      angleY 33.092
+     }
+    }
+   }
+  }
  }
- M2A3_BASE2 {
-  coords 2792.552 10.439 3083.29
-  angleY 31.255
- }
- M2A3_BASE3 {
-  coords 2788.159 10.439 3085.861
-  angleY 31.255
- }
 }
-Vehicle M1045_Tan1 : "{1105A103676424D0}Prefabs/Vehicles/Wheeled/M1045/M1045_Tan.et" {
- coords 2780.076 10 3100.687
- angleY 31.273
-}
-Vehicle M1113_Unarmored_Tan1 : "{B38EF3FA64D6F686}Prefabs/Vehicles/Wheeled/M1113/M1113_Unarmored_Tan.et" {
- coords 2776.557 10 3104.877
-}
-Vehicle M997A3_maxi_ambulance_Tan1 : "{D3C8500942A0242C}Prefabs/Vehicles/Wheeled/M997/M997A3_maxi_ambulance_Tan.et" {
- coords 2814.028 10 3096.997
-}
-Vehicle M923A1_transport1 : "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et" {
- coords 2773.298 10 3108.114
+GenericEntity : "{EECE34969CD34060}Prefabs/Compositions/Misc/SubCompositions/PalletFuel_Camo_USSR_01.et" {
+ coords 2821.682 10.029 3085.606
+ angleY -15.17
 }
 SCR_PlayerSpawnPoint USSpawnPoint : "{F6CAD21EDD2D1964}Prefabs/MP/Spawning/PlayerSpawnPoint.et" {
  coords 2779.077 10 3112.433
+ angleY 31.444
  m_sFaction "US"
+}
+SCR_DestructibleBuildingEntity : "{FC145AB7D70DC9B5}Prefabs/Structures/Commercial/FuelStations/FuelStation_E_01/FuelStation_E_01_GM.et" {
+ coords 2820.738 0.029 3088.497
+ angleY -16.678
 }

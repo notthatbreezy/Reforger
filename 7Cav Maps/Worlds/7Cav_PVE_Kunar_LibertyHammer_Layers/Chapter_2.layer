@@ -1,0 +1,217 @@
+$grp GenericEntity : "{7F9CD9EC97FF82A3}PrefabLibrary/InsurgentCaches/Area.et" {
+ FOB_Thunderbolt {
+  coords 279.502 42.092 3147.873
+  {
+   GenericEntity LayerTask3 : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+    coords 0 0 0
+    {
+     GenericEntity SlotClearArea10 : "{7A7D5E4F974A2DCC}PrefabLibrary/MissionTypes/SlotClearArea.et" {
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ Shakar {
+  coords 324.649 89.017 3616.835
+  {
+   GenericEntity LayerTask8 : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+    coords 0 0 0
+    {
+     GenericEntity SlotDelivery2 : "{A0E3A7568415CD77}PrefabLibrary/MissionTypes/SlotDelivery.et" {
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ EagleValley {
+  coords 1205.615 100.205 2875.33
+  {
+   GenericEntity LayerTask1 : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+    coords 0 0 0
+    {
+     GenericEntity SlotClearArea3 : "{7A7D5E4F974A2DCC}PrefabLibrary/MissionTypes/SlotClearArea.et" {
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ EaglesNest {
+  coords 941.432 192.646 2867.042
+  {
+   GenericEntity ASSAULT_EaglesNest : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+    coords 0 0 0
+    angleY 27.041
+    {
+     GenericEntity SlotClearArea2 : "{571703330A5B3CD5}PrefabLibrary/InsurgentCaches/SlotClearArea.et" {
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ SafiDarah {
+  coords 866.012 126.209 2560.008
+  {
+   GenericEntity LayerTask7 : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+    coords 0 0 0
+    {
+     GenericEntity SlotDestroy33 : "{862B3D4727074531}PrefabLibrary/MissionTypes/SlotDestroy.et" {
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ Tangali {
+  coords 337.355 157.405 2223.965
+  {
+   GenericEntity LayerTask9 : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+    coords 0 0 0
+    {
+     GenericEntity SlotDestroy34 : "{862B3D4727074531}PrefabLibrary/MissionTypes/SlotDestroy.et" {
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ ZahranValley {
+  coords 912.149 136.826 2218.065
+  {
+   GenericEntity LayerTask11 : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+    coords 0 0 0
+    {
+     GenericEntity SlotDestroy35 : "{862B3D4727074531}PrefabLibrary/MissionTypes/SlotDestroy.et" {
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ WagnerBase1 {
+  coords 515.54 262.761 1969.55
+  {
+   GenericEntity LayerTask10 : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+    coords 0 0 0
+    {
+     GenericEntity SlotClearArea11 : "{7A7D5E4F974A2DCC}PrefabLibrary/MissionTypes/SlotClearArea.et" {
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ EagleWatchtower {
+  coords 349.072 236.194 2785.961
+  {
+   GenericEntity LayerTask2 : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+    coords 0 0 0
+    {
+     GenericEntity SlotDelivery1 : "{A0E3A7568415CD77}PrefabLibrary/MissionTypes/SlotDelivery.et" {
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ ZahranValleyAmbush {
+  coords 665.3 60.382 2917.056
+  {
+   GenericEntity LayerTask12 : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+    coords 0 0 0
+    {
+     GenericEntity SlotDestroy36 : "{862B3D4727074531}PrefabLibrary/MissionTypes/SlotDestroy.et" {
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ Richahlam {
+  coords 697.41 37.997 3247.708
+  {
+   GenericEntity LayerTask6 : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+    coords 0 0 0
+    {
+     GenericEntity SlotDestroy32 : "{862B3D4727074531}PrefabLibrary/MissionTypes/SlotDestroy.et" {
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ PechValley {
+  coords 980.938 25.139 3328.46
+  {
+   GenericEntity LayerTask4 : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+    coords 0 0 0
+    {
+     GenericEntity SlotDestroy31 : "{862B3D4727074531}PrefabLibrary/MissionTypes/SlotDestroy.et" {
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ Ravendak {
+  coords 497.491 326.367 3867.183
+  {
+   GenericEntity LayerTask5 : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+    coords 0 0 0
+    {
+     GenericEntity SlotKill1 : "{DAED7E19771E01C8}PrefabLibrary/MissionTypes/SlotKill.et" {
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ KhandarAbad {
+  coords 1359.316 44.699 3315.297
+  {
+   GenericEntity COIN_KhandarAbad : "{BD5923838D8808DA}PrefabLibrary/InsurgentCaches/LayerTask.et" {
+    coords 0 0 0
+    {
+     GenericEntity SlotDestroy30 : "{862B3D4727074531}PrefabLibrary/MissionTypes/SlotDestroy.et" {
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity CaptureOPKhandar : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Components/Area.et" {
+ components {
+  SCR_ScenarioFrameworkArea "{59E8CDC50969206E}" {
+   m_bShowDebugShapesInWorkbench 1
+   m_iDynamicDespawnRange 100
+   m_fAreaRadius 100
+  }
+ }
+ coords 1458.87 104.261 3110.332
+ {
+  GenericEntity ASSAULT_OP_Khandar : "{CDC0845AD90BA073}Prefabs/Systems/ScenarioFramework/Components/LayerTaskClearArea.et" {
+   coords 1.468 0.085 2.741
+   {
+    GenericEntity SlotClearArea1 : "{E53456990A756229}Prefabs/Systems/ScenarioFramework/Components/SlotClearArea.et" {
+     components {
+      SCR_ScenarioFrameworkSlotClearArea "{5A633AF525D5B972}" {
+       m_aPlugins {
+        SCR_ScenarioFrameworkPluginTrigger "{5A633AF5368D26A3}" {
+         m_fAreaRadius 30
+         m_sActivatedByThisFaction "US"
+         m_bNotificationEnabled 1
+         m_bEnableAudio 1
+        }
+       }
+      }
+     }
+     coords -5.984 0 0
+    }
+   }
+  }
+ }
+}
